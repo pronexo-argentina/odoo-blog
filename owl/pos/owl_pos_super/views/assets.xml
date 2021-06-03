@@ -1,0 +1,7 @@
+<odoo>
+  <template id="assets" inherit_id="point_of_sale.assets">
+      <xpath expr="." position="inside">
+          <script type="text/javascript" src="/owl_pos_super/static/src/js/owl_pos_super.js"/>
+      </xpath>
+  </template>
+</odoo>
